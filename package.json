@@ -2,6 +2,14 @@
   "name": "sitereal-xcloud-demo",
   "type": "module",
   "private": true,
-  "scripts": { "dev": "astro dev", "build": "astro build", "preview": "astro preview" },
-  "dependencies": { "astro": "^7.4.2" }
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "start": "node ./dist/server/entry.mjs"
+  },
+  "dependencies": {
+    "astro": "^7.4.2",
+    "@astrojs/node": "^10.0.0"
+  }
 }
